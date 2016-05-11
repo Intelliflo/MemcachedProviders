@@ -1,0 +1,11 @@
+/.svn
+bin
+obj
+*.dbmdl
+*.user
+dist/
+packages/
+/*.suo
+*.lnk
+/teamcityLog.log
+/.vs
