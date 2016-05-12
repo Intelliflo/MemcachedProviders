@@ -1,4 +1,4 @@
-/.svn
+.svn/
 bin
 obj
 *.dbmdl
@@ -8,4 +8,6 @@ packages/
 /*.suo
 *.lnk
 /teamcityLog.log
-/.vs
+.vs/
+backup/
+UpgradeLog.htm

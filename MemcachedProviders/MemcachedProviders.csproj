@@ -66,19 +66,29 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CacheCounters.cs" />
     <Compile Include="Cache\CacheProvider.cs" />
     <Compile Include="Cache\CacheProviderCollection.cs" />
     <Compile Include="Cache\CacheProviderSection.cs" />
+    <Compile Include="SessionCounters.cs" />
     <Compile Include="Common\ConfigurationUtil.cs" />
     <Compile Include="Cache\DistCache.cs" />
     <Compile Include="Cache\MemcachedCacheProvider.cs" />
     <Compile Include="Common\DependancyClient.cs" />
     <Compile Include="Common\MemcachedService.cs" />
+    <Compile Include="Installer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Installer.Designer.cs">
+      <DependentUpon>Installer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Session\Db\IDbOperations.cs" />
     <Compile Include="Session\Db\SQLDbOperations.cs" />
     <Compile Include="Session\Memcached\MemcachedOperations.cs" />
